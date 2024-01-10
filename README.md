@@ -1,16 +1,41 @@
-# flutter_fluid_simulation
+# Fluid Simulation in Flutter
 
-A new Flutter project.
+This project demonstrates how to implement a fluid simulation using Box2D and Flame in Flutter.
+
+## Screenshots
+
+<p float="left">
+ <img src="https://raw.githubusercontent.com/Jao-br/flutter-fluid-simulation/main/screenshots/1.png" alt="Fluid Simulation" width="200" />
+ <img src="https://raw.githubusercontent.com/Jao-br/flutter-fluid-simulation/main/screenshots/2.png" alt="Fluid Simulation" width="200" />
+</p>
+
+## Features
+
+- Real-time fluid simulation using Box2D
+- Fluid particles interact with each other and the screen boundaries
+- Customizable fluid parameters such as particle mass, rest density, viscosity, stiffness, and damping
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project, you will need the Flutter development environment. Follow the instructions on the official Flutter website to set this up.
 
-A few resources to get you started if this is your first Flutter project:
+### 1. Once you have the Flutter development environment set up, clone this repository by running:
+git clone https://github.com/Jao-br/flutter-fluid-simulation.git
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 2. Navigate to the project directory and run the following command to install the required dependencies:
+flutter pub get
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 3. Finally, run the app on your preferred device by executing:
+flutter run
+
+
+## Contributing
+
+Contributions are welcome! If you have any ideas or issues, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
